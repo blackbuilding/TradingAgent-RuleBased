@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mt5": {
+      "command": "uvx",
+      "args": ["--from", "mcp-metatrader5-server", "mt5mcp"]
+    }
+  }
+}
