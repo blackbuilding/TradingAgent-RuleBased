@@ -31,7 +31,8 @@ python3 agents/rule_strategies/strategy_engine.py run \
 ```
 
 Fetches missing historical data from MT5 (via the subagent) or slices a
-broader already-fetched CSV, then walks the range bar by bar and writes a
-PDF report (MT5 Strategy Tester-style summary, equity curve, indicator
-panel with support/resistance levels, and a trade-by-trade rationale log)
-to `data/reports/`.
+broader already-fetched CSV, then walks the range bar by bar and writes an
+interactive HTML report (MT5 Strategy Tester-style summary, a zoomable
+equity curve, net-profit curve, and price/RSI/MACD panel with
+support/resistance levels, plus the full trade-by-trade rationale log) to
+`output/`.
